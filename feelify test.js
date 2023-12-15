@@ -128,7 +128,7 @@ function embedYouTubePlayer(videoId) {
             allowfullscreen
             origin-when-cross-origin
             gesture="media" 
-            allow="encrypted-media"
+            allow="encrypted-media; autoplay"
         ></iframe>
         <p><a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">Watch on YouTube</a></p>
     `;
