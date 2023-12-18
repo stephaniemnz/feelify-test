@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Mood Playlist</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mix Mood</title>
+    <link rel="stylesheet" href="./assets/feelify test.css">
 </head>
+<header>
+    <div>
+    <img src="./assets/MIX MOOD.png" alt="brand logo">
+    </div>
+  </header>
 <body>
+
     <div class="container">
         <h1>Spotify Mood Playlist</h1>
         <label for="moodSelect">Select your mood:</label>
@@ -14,17 +20,26 @@
             <option value="happy">Happy</option>
             <option value="sad">Sad</option>
             <option value="energetic">Energetic</option>
+            <option value="depressed">Depressed</option>
+            <option value="heart-broken">Heart Broken</option>
+            <option value="excited">Excited</option>
+            <option value="angry">Angry</option>
+            <option value="lonely">Lonely</option>
+            <option value="chill">Chill</option>
+            <option value="nostalgic">Nostalgic</option>
+            <option value="sleepy">Sleepy</option>
+            <option value="rage">Rage</option>
+            <option value="tired">Tired</option>
+            <option value="stressed">Stressed</option>
         </select>
         <button onclick="getPlaylist()">Get Playlist</button>
         <div id="playlistResult"></div>
-
         <div id="youtubePlayer"></div>
-       
-        <div class="quote-container">
+    </div>
+    <div class="quote-container">
             <h1>Inspirational Quote of the Day</h1>
             <p id="quote-text">Loading...</p>
             <button onclick="fetchQuote()">Get New Quote</button>
-        </div>
     </div>
 
     <script src="feelify test.js"></script>

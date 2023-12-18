@@ -1,0 +1,131 @@
+html body{
+    background-image: url(./Chillhouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.267);
+    border-radius: 5px;
+    width: 50vw;
+    height: 25vh;
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 4rem 2rem;
+  }
+
+  .quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.267);
+    border-radius: 5px;
+    width: 50vw;
+    height: 20vh;
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 4rem 2rem;
+  }
+
+.app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color:#fff;
+    margin-top: 40px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#fff;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #62006e;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #62006e;
+    color: #ffffff;
+}
+
+.playlist-section {
+    margin-top: 20px;
+}
+
+.error-section {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+.img-album {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 300px) {
+    body {
+      background-image: url(./Chillhouse.jpg);
+    }
+    select {
+      width: 75%;
+    }
+    header div {
+      height: 20vh;
+      align-items: center;
+      justify-content: center;
+    }
+  }
